@@ -27,3 +27,25 @@ a {
     color: white;
     font-size: 15px;
 }
+.one {
+    background-color: darkcyan;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+align-items: center;
+}
+.oneb {
+display:flex;
+flex-direction: column;
+padding: 50px;
+align-items: center;
+}
+
+img {
+    max-width: 300px;
+    padding: 100px;
+}
+button {
+    padding: 10px;
+margin: auto;
+}
