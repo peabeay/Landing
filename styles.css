@@ -1,51 +1,109 @@
 body {
-outline: solid red 2px;
-    box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
+    margin: 0;
 }
 
 .header {
-display: flex;
-outline: solid blue 2px;
-background-color: #1F2937;
-justify-content: space-evenly;
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-evenly;
 }
-h2 {
-    color:white;
-    font-size: 24px;
 
+h2 {
+    color: white;
+    font-size: 24px;
 }
+
 ul {
     display: flex;
     list-style-type: none;
     gap: 15px;
     padding: 10px;
 }
+
 a {
     text-decoration: none;
     color: white;
     font-size: 15px;
 }
+
 .one {
     background-color: darkcyan;
     color: white;
     display: flex;
     justify-content: space-evenly;
-align-items: center;
-}
-.oneb {
-display:flex;
-flex-direction: column;
-padding: 50px;
-align-items: center;
+    align-items: center;
+
 }
 
-img {
+.oneb {
+    display: flex;
+    flex-direction: column;
+    align-items:stretch;
+    flex-wrap: wrap;
+max-width: 300px;
+    padding: 75px;
+}
+.subtext {
+    flex-wrap: wrap;
+}
+.hero {
     max-width: 300px;
-    padding: 100px;
+    padding: 50px;
+    flex: 1;
+}
+h1 {
+    margin: 0;
 }
 button {
-    padding: 10px;
-margin: auto;
+width: fit-content;
+padding: 0% 10%;
+margin-top: 15px;
+}
+.two {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    background-color: darkslateblue;
+}
+h3 {
+color: white;
+font-size: 22px;
+}
+.twob {
+    display: flex;
+    flex-wrap: wrap;
+justify-content: center;
+gap: 30px;
+padding: 30px;
+}
+.happy {
+    max-width: 150px;
+}
+.pairs {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 150px;
+    gap: 5px;
+    color: white;
+}
+.three {
+    padding: 150px;
+    background-color:darkgrey;
+    justify-content: center;
+
+}
+.quote {
+color:azure;
+font-size: 20px;
+font-style: italic;
+max-width:fit-content;
+}
+.sig {
+text-align: end;
+padding: 25px;
 }
